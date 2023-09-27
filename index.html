@@ -12,7 +12,7 @@
         <h2 class="text__header">Oi amor, você pediu eu fiz.</h2>
 
         <div class="arrow">
-          <img src="assets/img/arrow-down-short.svg" alt="">
+          <img src="assets/img/arrow-down-short.svg" alt="arrow down">
         </div>
       </div>
     </header>
@@ -20,8 +20,9 @@
     <main class="main">
       <section class="section__title">
         <h2 class="heading__title">5 motivos pra você  voltar comigo;</h2>
-        <h4 class="heading__subtitle">vai descendo devagar vida...</h4>
-        <audio src="assets/audio/leall.mp3" autoplay></audio>
+        <h4 class="heading__subtitle">clica no botão vermelho!</h4>
+        <button class="btn" onclick="playAudio()"></button>
+        <audio id="myAudio" src="assets/audio/leall.mp3"></audio>
       </section>
 
       <section class="section">
@@ -76,4 +77,6 @@
       </div>
     </footer>
   </body>
+  
+  <script src="index.js"></script>
 </html>

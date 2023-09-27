@@ -45,6 +45,23 @@ body {
   position: relative;
 }
 
+.btn {
+  z-index: 1;
+  border: 0;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: red;
+  color: #fff;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .section__title::after {
   content: ''; 
   background-color: rgba(0, 0, 0, 0.7); 
@@ -104,6 +121,8 @@ body {
 }
 
 .heading__subtitle {
+  margin-bottom: 10px;
+  font-size: 14px;
   color: #fff;
   font-weight: 500;
   z-index: 1;
@@ -139,7 +158,8 @@ body {
   .heading__subtitle {
     color: #fff;
     z-index: 1;
-    font-size: 18px;
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 
   .heading {
